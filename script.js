@@ -1,9 +1,5 @@
-let a = 4.8
-let b = 3.9
-let c = 5.0
+let a = prompt ('ingrese una nota')
+let b = prompt ('ingrese una nota')
+let c = prompt ('ingrese una nota')
 
-// mostrar resultados
-
-let suma = a+b+c
-let prom = suma/3
-
+console.log(`el total de las notas de los 3 periodos academicos es ${a+b+c/3}`) 
